@@ -1,0 +1,55 @@
+let arr = 
+
+console.table(arr)
+console.log(arr[1][1])
+
+
+
+const TicTacToe = () => {
+    const GameBoard = () => {
+        let gameboard = [[[], [], []], [[], [], []], [[],[], []]]
+        
+    }
+}
+
+
+
+
+window.addEventListener("click", (e) =>{
+        let move = e.target.id
+        if(turnSystem === false){
+            console.log(player1.mark)
+            turnSystem = true
+        }
+
+        else if(turnSystem === true){
+            console.log(player2.mark)
+            turnSystem = false
+        }
+
+
+        playerComboArray == winCombo1 || playerComboArray === winCombo2 || playerComboArray === winCombo3 || playerComboArray === winCombo4 || playerComboArray === winCombo5 || playerComboArray === winCombo6 || playerComboArray === winCombo7 || playerComboArray === winCombo8
+
+
+
+
+if(drawCheckParameter != "" && turnSystem != "stop"){
+                console.log("draw")
+                turnSystem = "stop"
+
+
+                 else if(drawParameterChecker != "" && turnSystem != "stop"){
+                console.log(turnSystem)
+                console.log(typeof(drawParameterChecker))
+                console.log("draw")
+                turnSystem = "stop"
+            }
+            
+
+
+
+
+            pText = document.createElement('p')
+        pText.setAttribute('id', `${index}-innertext`)
+        pText.setAttribute('class', "inner-text")
+        playSquare.appendChild(pText)
